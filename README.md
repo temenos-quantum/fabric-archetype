@@ -12,7 +12,16 @@ sample classes for custom Fabric services, pre-processors and post-processors.
 
 As with all Maven archetypes, **the intent is that you use this to jumpstart your development**.
 
-If you have already installed Maven, just install the archetype and run:
+If you have already installed Maven, proceed to download (or clone) this project, and install this archetype and update the archetype catalog. 
+
+```
+git clone https://github.com/temenos-quantum/fabric-archetype.git
+cd fabric-archetype
+mvn install
+mvn install archetype:update-local-catalog
+```
+
+Then change directory to where you wan to create the Fabric Java project and run:
 
 ```
 mvn archetype:generate \
